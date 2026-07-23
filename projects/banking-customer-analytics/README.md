@@ -13,7 +13,7 @@ The objective is to analyse customer data from a retail bank to understand custo
 ## Current Progress
 
 - [x] Project setup
-- [ ] Dataset review
+- [x] Dataset review
 - [ ] Business understanding
 - [ ] Data profiling
 - [ ] Data cleaning
