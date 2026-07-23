@@ -4,6 +4,16 @@
 
 This document describes each field in the banking customer churn dataset, including its expected data type, business meaning, analytical role, and any initial data-quality concerns.
 
+> **Target Variable**
+
+The variable `exit` is the target variable for this project.
+
+- **True** = Customer churned or exited the bank
+- **False** = Customer remained with the bank
+
+This Boolean variable will be used to compare customer characteristics, identify churn patterns, and support any predictive modelling performed later in the project.
+
+
 | Column | Expected Type | Business Meaning | Analytical Role | Initial Notes |
 |---|---|---|---|---|
 | `id` | Integer | Unique customer identifier | Identifier | Expected to be unique; not used as a predictive feature |
@@ -24,7 +34,7 @@ This document describes each field in the banking customer churn dataset, includ
 | `last_active_date` | Date | Most recent customer activity date | Date | Convert to date type |
 | `last_transaction_month` | Numeric / Date-derived | Customer transaction recency indicator | Measure | Meaning and unit require verification |
 | `created_date` | Date | Customer account creation date | Date | Convert to date type |
-| `exit` | Boolean | Whether the customer churned | Target | Main outcome variable |
+| `exit` | Boolean | Whether the customer churned | 🎯Target | Main outcome variable |
 | `customer_segment` | Category | Assigned customer segment | Dimension | May be derived; interpretation required |
 | `engagement_score` | Numeric | Customer engagement score | Measure | Derivation is unknown |
 | `loyalty_level` | Category | Customer loyalty classification | Dimension | May be derived from other variables |
