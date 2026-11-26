@@ -9,7 +9,7 @@ This repository showcases my end-to-end data analytics projects using SQL, Pytho
 ---
 
 ## Technical Skills
-1
+
 - SQL
 - Python
 - Excel
